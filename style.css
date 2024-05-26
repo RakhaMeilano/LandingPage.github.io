@@ -1,0 +1,379 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+    scrollbar-width: none;
+    /* border: 1px solid red; */
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    background-color: #F5F7FA;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.navbar .brand {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+}
+
+.navbar .brand img {
+    width: 35px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+.link ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.link a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.buttons {
+    display: flex;
+}
+
+.login{
+    border: none;
+    background-color: inherit;
+    width: 90px;
+    height: 40px;
+    font-size: 14px;
+    cursor: pointer;
+    display: inline-block;
+    color: #4CAF4F;
+}
+
+.signup{
+    border: none;
+    background-color: #4CAF4F;
+    color: white;
+    width: 90px;
+    height: 40px;
+    font-size: 14px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 6px;
+}
+
+.hero {
+    width: 100%;
+    height: 100%;
+}
+
+.slider {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    padding: 40px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F5F7FA;
+}
+
+.text p {
+    font-size: 64px;
+    font-weight: 600;
+    color: #4D4D4D;
+}
+
+.text .difcolor {
+    color: #4CAF4F;
+}
+
+.text .small {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.slider img {
+    width: 25%;
+    height: 65%;
+}
+
+.text button {
+    border: none;
+    background-color: #4CAF4F;
+    color: white;
+    width: 130px;
+    height: 52px;
+    font-size: 16px;
+    margin-top: 32px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 6px;
+}
+
+.credit {
+    width: 100%;
+    height: 190px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.credit p {
+    font-size: 36px;
+    font-weight: 600;
+    color: #4D4D4D;
+}
+
+.credit .small {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.credit img {
+    margin: 8px;
+}
+
+.cards {
+    width: 100%;
+    height: 416px;
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.cards p {
+    font-size: 36px;
+    font-weight: 600;
+    color: #4D4D4D;
+}
+
+.cards .small {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.card {
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+.card p {
+    font-size: 28px;
+    font-weight:600;
+}
+
+.card .card1 {
+    width: 33%;
+    transition: 0.3s;
+    padding: 10px;
+}
+
+.card .card1:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card .card2 {
+    width: 33%;
+    transition: 0.3s;
+    padding: 10px;
+}
+
+.card .card2:hover:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card .card3 {
+    width: 33%;
+    transition: 0.3s;
+    padding: 10px;
+}
+
+.card .card3:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.unlock {
+    display: flex;
+    width: 100%;
+    height: 435px;
+    justify-content: space-between;
+    margin: 20px 0px;
+    padding: 40px;
+    align-items: center;
+    gap: 50px;
+}
+
+.unlock p {
+    font-size: 36px;
+    font-weight: 600;
+    color: #4D4D4D;
+    margin: 8px;
+}
+
+.unlock .small {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.unlock button {
+    border: none;
+    background-color: #4CAF4F;
+    color: white;
+    width: 151px;
+    height: 52px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.unlock button:hover {
+    background-color: white;
+    color: #4CAF4F;
+    border: #4CAF4F 1px solid;
+}
+
+.achiev {
+    display: flex;
+    width: 100%;
+    height: 288px;
+    align-items: center;
+    background-color: #F5F7FA;
+    gap: 40px;
+}
+
+.achiev .text {
+    margin: 0 auto;
+} 
+
+.achiev .text p {
+    font-size: 36px;
+}
+
+.achiev .text span {
+    color: #4CAF4F;
+}
+
+.achiev .text .small {
+    font-size: 16px;
+}
+
+
+
+.achievicon {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.grid {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.Calender {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.Calender .Calender-img {
+    width: 50%;
+    text-align: center;
+}
+
+.Calender .Calender-content {
+    width: 50%;
+}
+
+.Calender .Calender-content span {
+    font-size: 36px;
+    font-weight: 600;
+    color: #4D4D4D;
+}
+
+.Calender .Calender-content button {
+    border: none;
+    background-color: #4CAF4F;
+    color: white;
+    width: 130px;
+    height: 52px;
+    font-size: 16px;
+    margin-top: 32px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 6px;
+}
+.Customers {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.Customers-content-logos {
+    display: flex;
+    justify-content: space-around;
+}
+.Customers-content-logos-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.Customers-content-logos-button h1 {
+    font-size: 20px;
+    color: #4CAF4F;
+}
+
+
+
+footer {
+    width: 100%;
+    margin-top: 50px;
+}
+
+footer .ads {
+    width: 100%;
+    height: 300px;
+    background-color: #F5F7FA;
+    text-align: center;
+}
+
+footer .ads p {
+    font-size: 64px;
+    font-weight: 500;
+}
+
+footer .ads button {
+    border: none;
+    background-color: #4CAF4F;
+    color: white;
+    margin: 16px 0px;
+    width: 178px;
+    height: 52px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 6px;
+}
+
+footer .ads img {
+    width: 16px;
+    height: 16px;
+}
