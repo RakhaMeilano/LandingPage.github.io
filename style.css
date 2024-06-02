@@ -385,12 +385,13 @@ footer .ads img {
 }
 
 .wrapper-footer {
-    width: 100%;
-    height: 100%;
+    /* width: 100%; */
+    /* height: 100%; */
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    justify-content: space-between;
     align-items: center;
-    padding: 40px;
+    padding: 40px 165px;
     color: white;
     background-color: #263238;
 }
@@ -398,7 +399,7 @@ footer .ads img {
 .footer-content {
     display: flex;
     flex-direction: column;
-    margin: 64px 165px;
+    /* margin: 64px 165px; */
     gap: 40px;
     width: 350px;
     height: 190px;
@@ -438,7 +439,7 @@ footer .ads img {
 .footer-links {
     display: flex;
     gap: 30px;
-    margin: 64px;
+    margin: 64px 0px;
 }
 
 .footer-company,.footer-support {
